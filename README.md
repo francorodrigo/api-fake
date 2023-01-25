@@ -1,2 +1,1 @@
-# api-fake
-Api fake
+# fake-product-api-json-server
