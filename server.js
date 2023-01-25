@@ -93,43 +93,6 @@ const id = req.path.slice(where+1)
     }
 })
 
-server.get('/api/v1/collections', (req, res) => {
-    if(req.method === "GET")
-        res.status(200).json([
-            [
-                {
-                    id:1,
-                    name:'Gutter Cats',
-                    gcgc_daily:100
-                },
-                {
-                    id:1,
-                    name:'Gutter Cats',
-                    gcgc_daily:100
-                },
-                {
-                    id:1,
-                    name:'Gutter Dogs',
-                    gcgc_daily:50
-                },
-                {
-                    id:1,
-                    name:'Gutter Rats',
-                    gcgc_daily:20
-                },
-                {
-                    id:1,
-                    name:'Bored Apes',
-                    gcgc_daily:80
-                },
-                {
-                    id:1,
-                    name:'The Alien Boys',
-                    gcgc_daily:1000
-                },
-            ]
-        ])
-})
 
 server.use(middlewares);
 var whitelist = ['*'];

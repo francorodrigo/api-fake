@@ -1,0 +1,34 @@
+{
+   "collections": [
+        {
+            "id":1,
+            "name":"Gutter Cats",
+            "gcgc_daily":100
+        },
+        {
+            "id":1,
+            "name":"Gutter Cats",
+            "gcgc_daily":100
+        },
+        {
+            "id":1,
+            "name":"Gutter Dogs",
+            "gcgc_daily":50
+        },
+        {
+            "id":1,
+            "name":"Gutter Rats",
+            "gcgc_daily":20
+        },
+        {
+            "id":1,
+            "name":"Bored Apes",
+            "gcgc_dail2":80
+        },
+        {
+            "id":1,
+            "name":"The Alien Boys",
+            "gcgc_daily":1000
+        }
+    ]
+}

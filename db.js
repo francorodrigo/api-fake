@@ -12,6 +12,7 @@ const vechicles_requests = require("./data/vehicles-requests.json")
 const pets = require("./data/pets.json")
 const pets_requests = require("./data/pets-requests.json")
 const relatives_requests = require("./data/relatives-requests.json")
+const collections = require("./data/collections.json")
 
 module.exports = {
     getPackagesByFunctionalUnit,
@@ -26,5 +27,6 @@ module.exports = {
     vechicles_requests,
     pets,
     pets_requests,
-    relatives_requests
+    relatives_requests,
+    collections
 }
