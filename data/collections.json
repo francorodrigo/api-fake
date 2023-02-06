@@ -3,32 +3,32 @@
         {
             "id":1,
             "name":"Gutter Cats",
-            "gcgc_daily":100
+            "points":100
         },
         {
             "id":2,
             "name":"Gutter Cats",
-            "gcgc_daily":100
+            "points":100
         },
         {
             "id":3,
             "name":"Gutter Dogs",
-            "gcgc_daily":50
+            "points":50
         },
         {
             "id":4,
             "name":"Gutter Rats",
-            "gcgc_daily":20
+            "points":20
         },
         {
             "id":5,
             "name":"Bored Apes",
-            "gcgc_dail2":80
+            "points":80
         },
         {
             "id":6,
             "name":"The Alien Boys",
-            "gcgc_daily":2000
+            "points":2000
         }
     ]
 }

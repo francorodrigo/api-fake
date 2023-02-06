@@ -113,6 +113,7 @@ server.get('/echo', (req, res) => {
 server.use(jsonServer.bodyParser)
 server.use('/api/v1/', router);
 router.use(function (req, res, next) {
+    res.header("Content-Type","application/json")
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Methods", "*");
     res.header("Access-Control-Allow-Headers",
@@ -123,6 +124,7 @@ router.use(function (req, res, next) {
 router.render = (req, res) => {
     //console.log("🚀 ~ file: index.js ~ line 57 ~ req", req._parsedUrl.pathname)
     //console.log("res",res.locals)
+    console.log("RES.LOCALS",res.locals);
     res.jsonp({
         "total_count": res.locals.data.length,
         [req._parsedUrl.pathname.replace("/","")] : res.locals.data
